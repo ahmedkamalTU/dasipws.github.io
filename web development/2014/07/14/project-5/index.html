@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Startup Framework</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    <meta name="description" content="17th Workshop on Design and Architectures for Signal and Image Processing (DASIP 2024)">
     <link rel="canonical" href="https://dasipws.github.io/web%20development/2014/07/14/project-5/">
 
 
@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="/style.css">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/fontawesome.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/brands.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/solid.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -44,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Awesome Title</a>
+                <a class="navbar-brand page-scroll" href="#page-top">DASIP 2024</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,16 +57,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#callforpapers">Call for Papers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#authors">Authors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#committees">Committees</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#editions">Prior Editions</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -79,9 +85,10 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-heading">DASIP 2024: Workshop on Design and Architectures for Signal and Image Processing</div>
+                <div class="intro-lead-in">In conjunction with the HiPEAC 2024 Conference in Munich, Germany, January 17-19, 2024</div>
+                <a href="#callforpapers" class="page-scroll btn btn-xl">CALL FOR PAPERS</a>
+                <a href="#authors" target="_blank" rel="noopener" class="btn btn-xl">SUBMIT A PAPER</a>
             </div>
         </div>
     </header>
@@ -95,175 +102,681 @@
         
  -->
 
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams-thumbnail.png" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape-thumbnail.png" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden-thumbnail.png" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse-thumbnail.png" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roundicons-thumbnail.png" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/startup-framework-thumbnail.png" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
+        <!-- About Section -->
     <section id="about">
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">About DASIP</h2>
+                    <h3 class="section-subheading text-muted">The Workshop on Design and Architectures for Signal and Image Processing (DASIP) provides an inspiring international forum for the latest innovations and developments in the field of leading signal, image and video processing and machine learning in custom embedded, edge and cloud computing architectures and systems.</h3>
+                    <h3 class="section-subheading text-muted">The workshop program will include keynote speeches and contributed paper sessions.</h3>
                 </div>
             </div>
+
+            <div class="row text-center">
+
+                <div class="col-md-6">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-location-dot fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Venue</h4>
+                    <p class="text-muted">The 17th Workshop on Design and Architectures for Signal and Image Processing (DASIP 2024) will take place in conjunction with the <a href="https://www.hipeac.net/2024/munich/#/" target="_blank">HiPEAC 2024 conference</a> in Munich, Germany, January 17 - January 19, 2024.</p>
+				<a href="https://www.hipeac.net/" target="_blank" rel="noopener"><img loading="lazy" src="img/logos/hipeac.png" alt="HiPEAC Logo" width="148" height="106"></a>
+                </div>
+
+                <div class="col-md-6">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-calendar-days fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Importante Dates</h4>
+                    <p class="text-muted">Abstract registration: October 6, 2023<br>Paper submission: October 13, 2023<br>Notification of acceptance: November 24, 2023<br>Camera ready submission: December 1, 2023</p>
+                    <p>Note: All deadlines are in Anywhere on Earth (AoE)</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Call for Papers Section -->
+    <section id="callforpapers" class="bg-light-gray">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Call for Papers</h2>
+                    <h3 class="section-subheading text-muted">Prospective authors are invited to submit manuscripts on the following topics, but not limited to them.</h3>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-microchip fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Custom embedded, edge and cloud architectures and systems</h4>
+                    <p class="text-muted">
+Machine learning and deep learning architectures for inference and training<br>
+Systems for autonomous vehicles : cars, drones, ships and space applications<br>
+Image processing and compression architectures<br>
+Smart cameras, security systems, behaviour recognition<br>
+Edge and cloud processing: special routing, configurable co-processors and low energy considerations<br>
+Real-time cryptography, secure computing, financial and personal data processing<br>
+Computer arithmetic, approximate computing, probabilistic computing, nanocomputing, bio-inspired computing<br>
+Biological data collection and analysis, bioinformatics<br>
+Personal digital assistants, natural language processing, wearable computing and implantable devices<br>
+Global navigation satellite and inertial navigation systems<br>
+</p>
+                </div>
+
+                <div class="col-lg-12">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Design Methods and Tools</h4>
+                    <p class="text-muted">
+Design verification and fault tolerance<br>
+Embedded system security and security validation<br>
+System-level design and hardware/software co-design<br>
+High-level synthesis, logic synthesis, communication synthesis<br>
+Embedded real-time systems and real-time operating systems<br>
+Rapid system prototyping, performance analysis and estimation<br>
+Formal models, transformations, algorithm transformations and metrics<br>
+</p>
+                </div>
+
+                <div class="col-lg-12">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Development Platforms, Architectures and Technologies</h4>
+                    <p class="text-muted">
+Embedded platforms for multimedia and telecommunication<br>
+Many-core and multi-processor systems, SoCs, and NoCs<br>
+Reconfigurable ASIPs, FPGAs, and dynamically reconfigurable systems<br>
+Memory system and cache management<br>
+Asynchronous (self-timed) circuits and analog and mixed-signal circuits<br>
+</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+        <!-- Authors Information Section -->
+    <section id="authors">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Authors Information</h2>
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-pen-to-square fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Submission Guidelines</h4>
+
+                    <p class="text-muted">Authors should prepare their <strong>full papers</strong> (up to 12 pages) and/or <strong>short papers</strong> (up to 6 pages, intended for work-in-progress with promissing results and/or students at the early stages of their research) in the single-column Springer LNCS format. The Instructions for Proceedings Authors and Spinger LNCS template in various formats are available through the following link:<br><a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noopener">https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines</a></p>
+
+                    <p class="text-muted">Submitted papers are required to describe original unpublished work and must not be under consideration for publication elsewhere. Submissions must be fully anonymous, but authors should not hide previous work, instead, they need to make self-references in the third person.</p>
+
+                    <p class="text-muted">Each submission will receive at least three independent double blind reviews from the members of the scientific committee. Authors are encouraged to take the reviewers’ comments into account when preparing the final versions of their papers and present the research during the workshop.</p>
+
+                    <p class="text-muted">All accepted papers must be presented by one of the authors in order to be included in the workshop proceedings.</p>
+
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-file-upload fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Paper Submission</h4>
+                    <p class="text-muted">The submission of papers is done via <a href="https://easychair.org/conferences/?conf=dasip24" target="_blank" rel="noopener">EasyChair</a>. Please submit your paper through the following link: <a href="https://easychair.org/conferences/?conf=dasip24" target="_blank" rel="noopener">https://easychair.org/conferences/?conf=dasip24</a>.</p>
+
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-landmark fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Registration</h4>
+                    <p class="text-muted">DASIP 2024 is a HiPEAC-based workshop. Hence, a <a href="https://www.hipeac.net/2024/munich/#/registration/" target="_blank" rel="noopener">registration at HiPEAC</a> is required.</p>
+
+                    <p class="text-muted">Please be aware that for each accepted paper, at least, one of the authors must pay the full registration fee in order for the paper to be included in the workshop proceedings and scheduled in the program.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Committees Section -->
+    <section id="committees" class="bg-light-gray">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Committees</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-user-group fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Chairs</h4>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Tiago M. Dias<br>Instituto Superior de Engenharia de Lisboa, Lisbon, Portugal<br><a href="mailto: tiago.dias@isel.pt "> tiago.dias@isel.pt </a>
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Paola Busia<br>Università degli Studi di Cagliari, Cagliari, Italy<br><a href="mailto: paola.busia@unica.it "> paola.busia@unica.it </a>
+				</p>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-users-gear fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Steering Committee</h4>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Alfonso Rodríguez<br>Universidad Politécnica de Madrid, Madrid, Spain
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Andrea Pinna<br>Sorbonne University, Paris, France
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Diana Goehringer<br>TU Dresden, Dresden, Germany
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Jean-Pierre David<br>Ecole Polytechnique de Montreal, Montreal, Canada
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					João M. P. Cardoso<br>University of Porto, Porto, Portugal
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Karol Desnos<br>INSA Rennes - IETR laboratory, Rennes, France
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Marek Gorgoń<br>AGH University of Science and Technology, Kraków, Poland
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Michael Huebner<br>Brandenburg University of Technology, Cottbus-Senftenberg, Germany
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Miguel Chavarrías<br>Universidad Politécnica de Madrid, Madrid, Spain
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Paolo Meloni<br>University of Cagliari, Cagliari, Italy
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Pierre Langlois<br>Ecole Polytechnique de Montreal, Montreal, Canada
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Sebastien Pillement<br>University of Nantes - IETR, Nantes, France
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Sergio Petruz<br>TU Dresden, Dresden, Germany
+				</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					Tomasz Kryjak<br>AGH University of Science and Technology, Kraków, Poland
+				</p>
+                </div>
+                
+            </div>
+<!--
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-users-line fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Technical Program Committee</h4>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                
+                <div class="col-sm-6">
+                    <p class="text-muted">
+					, , 
+				</p>
+                </div>
+                
+            </div>
+-->
+        </div>
+    </section>
+
+        <!-- Previous Editions Section -->
+    <section id="editions">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Prior Editions</h2>
+                    <h3 class="section-subheading text-muted">DASIP is a long-running annual workshop open to the presentation and discussion of the latest innovations and developments in the field of leading signal, image and video processing and machine learning in custom embedded, edge and cloud computing architectures and systems.</h3>
+                    <h3 class="section-subheading text-muted">It was organized for the first time in 2007 in Grenoble, France, and since then it has alternated between several countries in Europe and Canada. The last four editions were co-located with HiPEAC.</h3>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
+                
+				
+				
                         <li>
+				
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/flags/fr.svg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>DASIP 2023</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">
+								
+									In conjunction with the 18th HiPEAC Conference<br>
+								
+								Toulouse, France<br>January 16-18
+								
+									<br><a href=" http://dasip23.citsem.upm.es " target="_blank" rel="noopener">Website</a>
+								
+							</p>
                                 </div>
                             </div>
                         </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/hu.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2022</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+									In conjunction with the 17th HiPEAC Conference<br>
+								
+								Budapest, Hungary<br>June 20-22
+								
+									<br><a href=" http://dasip2022.agh.edu.pl " target="_blank" rel="noopener">Website</a>
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li>
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/online-meeting-icon-sqr.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2021</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+									In conjunction with the 16th HiPEAC Conference<br>
+								
+								Virtual Conference, Online<br>January 18-20
+								
+									<br><a href=" http://dasip2021.agh.edu.pl " target="_blank" rel="noopener">Website</a>
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/ca.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2019</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Polytechnique Montréal, Canada<br>October 16-18
+								
+									<br><a href=" https://dasip2019.gr2m.polymtl.ca/ " target="_blank" rel="noopener">Website</a>
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li>
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/pt.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2018</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								University of Porto, Portugal<br>October 10-12
+								
+									<br><a href=" https://web.fe.up.pt/~specs/events/dasip2018/ " target="_blank" rel="noopener">Website</a>
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/de.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2017</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Technical University of Dresden, Germany<br>September 27-29
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li>
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/fr.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2016</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								RISA/INRIA Rennes, France<br>October 12-14
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/pl.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2015</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								AGH University of Science and Technology, Poland<br>September 23-25
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li>
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/es.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2014</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Technical University of Madrid, Spain<br>October 8-10
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/it.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2013</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								University of Cagliari, Italy<br>October 8-10
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li>
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/de.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2012</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Karlsruhe Institute of Technology, Germany<br>October 23-25
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/fi.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2011</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Tampere University of Technology, Finland<br>November 2-4
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li>
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/gb.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2010</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								University of Edinburgh, UK<br>October 26-28
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/fr.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2009</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Sophia Antipolis, France<br>September 22-24
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li>
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/be.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2008</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Brussels, Belgium<br>November 24
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+				
+				
+                        <li class="timeline-inverted">
+				
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/fr.svg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DASIP 2007</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								
+								Grenoble, France<br>November 27-29
+								
+							</p>
+                                </div>
+                            </div>
+                        </li>
+                
+
+<!--
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
@@ -278,188 +791,19 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+-->                 </ul>
                 </div>
             </div>
+
         </div>
     </section>
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <ul class="list-inline social-buttons">
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-stack-overflow"></i>
-                                </a>
-                            </li>
-                            
 
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </li>
-                            
-
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Petersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <ul class="list-inline social-buttons">
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-google-plus"></i>
-                                </a>
-                            </li>
-                            
-
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">If you have any problems or questions, please contact us.</h3>
                 </div>
             </div>
             <div class="row">
@@ -502,35 +846,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Awesome Title 2023</span>
+                    <span class="copyright">Copyright &copy; 2024 DASIP Workshops Series</span>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        
-                        <li><a href="http://twitter.com/jekyllrb"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        
-                        <li><a href=""><i class="fa fa-facebook"></i></a>
-                        </li>
-                        
-                        <li><a href="http://stackoverflow.com/questions/tagged/jekyll"><i class="fa fa-stack-overflow"></i></a>
-                        </li>
-                        
-                        <li><a href="http://bitbucket.org/jekyll"><i class="fa fa-bitbucket"></i></a>
-                        </li>
-                        
-                        <li><a href="http://github.com/jekyll"><i class="fa fa-github"></i></a>
-                        </li>
-                        
-                    </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
+                    <span class="copyright">Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with <a href="https://jekyllthemes.io/theme/agency-jekyll-theme" target="_blank" rel="noopener">Agency theme</a>.</span>
                 </div>
             </div>
         </div>

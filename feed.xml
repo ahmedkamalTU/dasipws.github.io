@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Awesome Title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <title>DASIP 2024</title>
+    <description>17th Workshop on Design and Architectures for Signal and Image Processing (DASIP 2024)</description>
     <link>https://dasipws.github.io/</link>
     <atom:link href="https://dasipws.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Jul 2023 00:01:29 +0100</pubDate>
-    <lastBuildDate>Sat, 29 Jul 2023 00:01:29 +0100</lastBuildDate>
+    <pubDate>Thu, 10 Aug 2023 17:31:18 +0100</pubDate>
+    <lastBuildDate>Thu, 10 Aug 2023 17:31:18 +0100</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
