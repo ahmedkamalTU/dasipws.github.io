@@ -1,0 +1,33 @@
+ <!-- Portfolio Modals -->
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+    <div class="portfolio-modal modal fade" id="#galleryphoto{{ myimage.basename }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <hr class="star-primary">
+
+                            <h3 style="color:#{{ site.data.template.color.primary }}">Keynote</h3>
+                            <h5>January 18 | 10:15 - 11:00 </h5>
+                            <p class="text-muted">Chair: Paola Busia, Università degli Studi di Cagliari, Italy</p>
+                            <h4>Orbiting the Edge and Stars: Bridging the gap between Space Avionics and Edge Computing, challenges and space mission's needs</h4>
+                            <p class="text-muted">David González-Arjona</p>
+
+                            <hr class="star-primary">
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

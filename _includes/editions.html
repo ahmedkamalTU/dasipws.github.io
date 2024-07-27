@@ -1,0 +1,46 @@
+<!-- Previous Editions Section -->
+    <section id="editions" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Prior Editions</h2>
+                    <h3 class="section-subheading text-muted">DASIP is a long-running annual workshop open to the presentation and discussion of the latest innovations and developments in the field of leading signal, image and video processing and machine learning in custom embedded, edge and cloud computing architectures and systems.</h3>
+                    <h3 class="section-subheading text-muted">It was organized for the first time in 2007 in Grenoble, France, and since then it has alternated between several countries in Europe and Canada. The last five editions were co-located with HiPEAC.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+				{% for edition in site.editions %}
+					{% assign loopindex = forloop.index | modulo: 2 %}
+					{% if loopindex == 1 %}
+                        <li>
+					{% else %}
+                        <li class="timeline-inverted">
+					{% endif %}
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/flags/{{ edition.pic }}" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>{{ edition.title }}</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+								{% if edition.subtitle != nil  %}
+									{{ edition.subtitle }}<br>
+								{% endif %}
+								{{ edition.location }}, {{ edition.country }}<br>{{ edition.dates }}
+								{% if edition.url != nil  %}
+									<br><a href=" {{ edition.url }} " target="_blank" rel="noopener">Website</a>
+								{% endif %}
+							</p>
+                                </div>
+                            </div>
+                        </li>
+				{% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

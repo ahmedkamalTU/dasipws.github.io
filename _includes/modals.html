@@ -1,0 +1,106 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+{% if post.modal-id== 0 %}
+                            <hr class="star-primary">
+
+                            <h3 style="color:#{{ site.data.template.color.primary }}">Keynote</h3>
+                            <h5>January 18 | 10:15 - 11:00 </h5>
+                            <p class="text-muted">Chair: Paola Busia, Università degli Studi di Cagliari, Italy</p>
+                            <h4>Orbiting the Edge and Stars: Bridging the gap between Space Avionics and Edge Computing, challenges and space mission's needs</h4>
+                            <p class="text-muted">David González-Arjona</p>
+
+                            <hr class="star-primary">
+
+                            <h3 style="color:#{{ site.data.template.color.primary }}">Session #1</h3>
+                            <h5>January 18 | 11:30 - 13:00 </h5>
+                            <p class="text-muted">Chair: Tomasz Kryjak, AGH University of Science and Technology, Poland</p>
+                            <h4>A highly configurable platform for advanced PPG analysis</h4>
+                            <p class="text-muted">Flavie Durand De Gevigney, Julien Heulot, Eric Bazin, Jean-François Nezan, Mickaël Dardaillon and Slaheddine Aridhi</p>
+                            <h4>sEMG-based Gesture Recognition with Spiking Neural Networks on Low-power FPGA</h4>
+                            <p class="text-muted">Matteo Antonio Scrugli, Gianluca Leone, Paola Busia and Paolo Meloni</p>
+                            <h4>Scalable FPGA Implementation of Dynamic Programming for Optimal Control of Hybrid Electrical Vehicles</h4>
+                            <p class="text-muted">Frans Skarman and Oscar Gustafsson</p>
+
+                            <hr class="star-primary">
+
+                            <h3 style="color:#{{ site.data.template.color.primary }}">Session #2</h3>
+                            <h5>January 18 | 14:00 - 15:30 </h5>
+                            <p class="text-muted">Chair: Alfonso Rodríguez, Universidad Politécnica de Madrid, Spain</p>
+                            <h4>Wordlength Optimization for Custom Floating-point Systems</h4>
+                            <p class="text-muted">Quentin Milot, Mickaël Dardaillon, Justine Bonnot and Daniel Ménard</p>
+                            <h4>An Initial Framework for Prototyping Radio-Interferometric Imaging Pipelines</h4>
+                            <p class="text-muted">Sunrise Wang, Nicolas Gac, Hugo Miomandre, Jean-Francois Nezan, Karol Desnos and Francois Orieux</p>
+                            <h4>Scratchy: A Class of Adaptable Architectures with Software-Managed Communication For Edge Streaming Applications</h4>
+                            <p class="text-muted">Joseph Faye, Naouel Haggui, Florent Kermarrec, Kévin Martin, Shuvra Bhattacharyya, Jean-François Nezan and Maxime Pelcat</p>
+
+                            <hr class="star-primary">
+                            <h3 style="color:#{{ site.data.template.color.primary }}">Special Session</h3>
+                            <h5>January 19 | 10:00 - 11:00 </h5>
+                            <p class="text-muted">Chair: Tiago M. Dias, ISEL-IPL/INESC-ID, Portugal</p>
+                            <h4>Embedded AI for Image and Signal Processing: ​Future Challenges?​​</h4>
+                            <p class="text-muted">Andrea Pinna, Université Sorbonne, France<br>
+Marek Gorgon, AGH University of Science and Technology, Poland​<br>
+Paolo Meloni​, University of Cagliari, Italy​</p>
+
+
+
+                            <hr class="star-primary">
+
+                            <h3 style="color:#{{ site.data.template.color.primary }}">Session #3</h3>
+                            <h5>January 19 | 11:30 - 12:45 </h5>
+                            <p class="text-muted">Chair: Karol Desnos, INSA Rennes - IETR laboratory, France</p>
+
+                            <h4>Standalone Nested Loop Acceleration on CGRAs for Signal Processing Applications</h4>
+                            <p class="text-muted">Chilankamol Sunny, Satyajit Das, Kevin Martin and Philippe Coussy</p>
+                            <h4>Improving the Energy Efficiency of CNN Inference on FPGA using Partial Reconfiguration</h4>
+                            <p class="text-muted">Zhuoer Li and Sébastien Bilavarn</p>
+                            <h4>Optimising Graph Representation for Hardware Implementation of Graph Convolutional Networks for Event-based Vision</h4>
+                            <p class="text-muted">Kamil Jeziorek, Piotr Wzorek, Krzysztof Blachut, Andrea Pinna and Tomasz Kryjak</p>
+
+                            <hr class="star-primary">
+{% else %}
+
+                            <h3 style="color:#{{ site.data.template.color.primary }}">Keynote</h3>
+                            <h4>{{ post.title }}</h4>
+                            <div class="team-member">
+                                <img src="{{ post.img }}" class="img-responsive img-circle" alt="">
+                            </div>
+                            <p class="text-muted">{{ post.name }}, {{ post.affiliation }}</p>
+{% comment %}
+                            <ul class="list-inline item-details">
+                                <li>Speaker:
+                                    <strong><span style="color:#{{ site.data.template.color.primary }}">{{ post.name }}</span></strong>
+                                </li>
+                                <li>Affiliation:
+                                     <strong><span style="color:#{{ site.data.template.color.primary }}">{{ post.affiliation }}</span></strong>
+                                </li>
+                                <li>Date:
+                                    <strong><span style="color:#{{ site.data.template.color.primary }}">{{ post.slot }}</span></strong>
+                                </li>
+                            </ul>
+{% endcomment %}
+                            <hr class="star-primary">
+                            <p align="justify"><span style="font-weight: 700">Abstract:</span> {{ post.abstract }}</p>
+                            <hr class="star-primary">
+                            <p align="justify"><span style="font-weight: 700">Short bio:</span> {{ post.bio }}</p>
+{% endif %}
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
